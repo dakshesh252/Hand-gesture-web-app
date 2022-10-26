@@ -1,0 +1,90 @@
+body
+{
+  color: white;
+  background-image: url("3692178.jpg");
+  backdrop-filter: blur;
+background-size: cover;
+background-position-y: center;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+  border-radius:10px;
+  
+}
+
+ #result:hover
+{
+  -webkit-box-shadow: 1px 1px 41px 6px rgb(255, 184, 243);
+  -moz-box-shadow: 1px 1px 41px 6px rgb(255, 184, 243);
+  box-shadow: 1px 1px 41px 6px rgb(255, 184, 243)}
+
+  #camera:hover
+  {
+    -webkit-box-shadow: 1px 1px 41px 6px rgb(255, 184, 243);
+    -moz-box-shadow: 1px 1px 41px 6px rgb(255, 184, 243);
+    box-shadow: 1px 1px 41px 6px rgb(255, 184, 243);}
+  #pn{
+    color: orange;
+  }
+  
+  #n{
+    height: 100px;
+ -webkit-box-shadow: 1px 1px 41px 6px rgb(95, 26, 89);
+    -moz-box-shadow: 1px 1px 41px 6px rgb(95, 26, 89);
+    box-shadow: 1px 1px 41px 6px rgb(95, 26, 89);
+  width: 400px;
+}
+ 
+  #b:hover{
+    -webkit-box-shadow: 1px 1px 41px 6px rgb(255, 102, 0);
+    -moz-box-shadow: 1px 1px 41px 6px rgb(255, 102, 0);
+    box-shadow: 1px 1px 41px 6px rgb(255, 102, 0);
+  }
+
+  #p:hover{
+    -webkit-box-shadow: 1px 1px 41px 6px rgb(43, 255, 0);
+    -moz-box-shadow: 1px 1px 41px 6px rgb(43, 255, 0);
+    box-shadow: 1px 1px 41px 6px rgb(43, 255, 0);
+  }
+
+  
+#results{
+  margin-left: 350px;
+  margin-top: -20px;
+}
+#cameras{
+  margin-top: 50px;
+}
+#result_emotion_name   
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+
+label{
+  font-size:14px;
+  color: #62b33a;
+  padding: 6px;
+  border-radius: 10px;
+background-color: white;}
+
